@@ -1,0 +1,53 @@
+body {
+    background-color: lightblue;
+    margin: 30px;
+    /* font-size: 16px; */
+}
+
+select {
+    border: 2px solid transparent;
+    width: 200px;
+
+    font-size: 1.3rem;
+}
+
+select:hover {
+    background-color: aquamarine;
+}
+
+h1 {
+    color: blue;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+button{
+    background-color: blue;
+    border: 2px solid grey;
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+
+    font-size: 1.3rem;
+}
+
+input {
+    text-transform: lowercase;
+    width: 200px;
+}
+
+.error {
+    color: red;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: initial;
+}
